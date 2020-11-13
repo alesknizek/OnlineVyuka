@@ -1,0 +1,46 @@
+body{
+    background-color: #0080FF;
+}
+
+#container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#prvniRadek td{
+    border-bottom: 2px solid black;
+    padding: 2px 20px;
+    font-size: 3em;
+}
+.prvniSloupec{
+    border-right: 2px solid black;
+    padding: 2px 20px;
+}
+
+td{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+
+.datum{
+}
+
+.den{
+    font-size: 3em;
+}
+
+.hodina:hover{
+    background-color: #0066cc;
+}
+.hodina button{
+    background-color: transparent;
+    width: 40px;
+    height: 30px;
+}
