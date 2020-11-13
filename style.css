@@ -24,8 +24,6 @@ table{
 }
 
 td{
-    width: 40px;
-    height: 30px;
     text-align: center;
 }
 
@@ -39,8 +37,6 @@ td{
 .hodina:hover{
     background-color: #0066cc;
 }
-.hodina button{
-    background-color: transparent;
-    width: 40px;
-    height: 30px;
+.hodina:active{
+    background-color: green;
 }
